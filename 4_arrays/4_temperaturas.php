@@ -26,6 +26,7 @@ for ($i=0; $i < count($temperaturas); $i++) {
 }
 
 $media=number_format(($suma/count($temperaturas)),2);
+//también se puede usar el round => round($variable,numero a redondear)
 
 echo "La temperatura media es: ". $media ."<br>";
 echo "La temperatura máxima es: ". $maxima ."<br>";
