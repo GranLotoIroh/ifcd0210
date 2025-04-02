@@ -34,7 +34,7 @@ function mostrarLista()
         <label for="producto">Producto:</label>
         <input type="text" id="producto" name="producto" required><br><br>
         <label for="precio">Precio:</label>
-        <input type="number" step="any" id="precio" name="precio" required><br><br>
+        <input type="number" step="0.01" id="precio" name="precio" required><br><br>
         <input type="submit" value="Añadir Producto">
     </form>
     <h2>Productos en la Compra:</h2>
